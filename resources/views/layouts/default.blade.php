@@ -19,7 +19,7 @@
 		}
 	</style>
 
-    <title>Laracarte</title>
+    <title>{{ page_title($title) }}</title>
 </head>
 <body>
 	@include('layouts.partials._nav')
